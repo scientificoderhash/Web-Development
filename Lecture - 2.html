@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson- 2</title>
+  </head>
+  <body>
+    <a href="https://www.google.com" target="_blank">Google</a><br />
+    <a href="Lecture - 1 (index).html" target="_blank">index file</a><br />
+    <a href="http://" target="_blank" rel="noopener noreferrer"><h2></h2></a
+    ><br />
+    <!--Links can be provided in the above mentioned code-->
+    <a href="Images/Koala.jpg">Text</a>
+    <!--Target tag in the hyperlink tag gives the idea about where the link should open. Blank means it will open in new tab-->
+    <hr />
+    <img src="Images/Koala.jpg" alt="" width="400" height="" />
+    <!--Either width or height should be used to maintain the aspect ratio of the image-->
+    <!--src code for image address just like in hyperlink tag-->
+    <!--alt tag, if for some reason, the image is not showing, then text written in the alt tag will be shown-->
+    <video src="Videos/Krishna Prasadam - The Higher Taste __ Srila Prabhupada Vyas Puja 2020.mp4" width="400" height="" autoplay></video>
+    <!--By autoplay tag, video will start automatically-->
+    <video src="Videos/Krishna Prasadam - The Higher Taste __ Srila Prabhupada Vyas Puja 2020.mp4" width="400" height="" controls loop muted poster=""></video>
+    <!--By controls tag, Video can be played or stopped manually||| loop tag video will play continuosly in a loop without stopping||| muted tag will start video muted initially ||| poster tag is used to give thumbnail to the video (Thumbnail img location should be provided in the poster tag)-->
+    <hr />
+    <iframe width="" height="" src="" frameborder="0" allow=""></iframe>
+    <!--Above code is used to show any other webpages (audio, video, webpage) in our website
+    Allow tag is used to provide some tools to control that page-->
+    <hr />
+    <!-- If files is in same folder then just write files's name to hyperlink it.
+    If files are in the folder then write - Folder name/file name
+  And if file is outside the folder then use ../ Use it move outside the folders-->
+
+    <table>
+      <!--Table tag to create tables-->
+      <thead>
+        <!--for headings-->
+        <tr>
+          <!--tr tag to create one row-->
+          <th><!--th tag to give heading to our row-->Subject</th>
+          <th>Chapters</th>
+          <th>Marks</th>
+          <th>Percentile</th>
+        </tr><!--th and td tags to create columns-->
+      </thead>
+      <tbody>
+        <tr>
+            <td>Physics</td>
+            <td>1</td>
+            <td>100</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>Chemistry</td>
+            <td>2</td>
+            <td>90</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>3</td>
+            <td>50</td>
+            <td>90</td>
+        </tr>
+      </tbody>
+      <tfoot><!--colspan for cobining a column and similarly rowspan for rows-->
+        <th colspan="4">Result: Pass</th>
+        <th rowspan="5">Result: Pass</th>
+      </tfoot>
+    </table>
+    <br>
+    <a href="WEB Development.html">WEB DEVELOPMENT</a>
+  </body>
+</html>

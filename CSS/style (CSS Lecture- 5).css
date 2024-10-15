@@ -1,0 +1,24 @@
+h3{
+    color: crimson;
+}
+h5{
+    font-size: large;
+    color: darkgoldenrod;
+}
+.Selector{
+    color: rgb(0, 195, 255);
+}
+em:hover{
+    background-color: blue;
+    font-weight: 900;
+    font-size: 150%;
+}
+h4:hover{
+    background-color: brown;
+}
+P::first-line{
+    color: rgb(0, 110, 255);
+}
+article> h1 {
+    background-color: aquamarine;
+}
