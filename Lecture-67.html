@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 56px;
+            width: 56px;
+            padding: 5px;
+            margin: 5px;
+            border: 2px solid black;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box" id="red">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+    </div>
+    <script>
+        let a = document.body.firstElementChild
+        a.childNodes[1]
+        console.log(a)
+        console.log(a.childNodes[1])
+
+
+        // let boxes = document.getElementsByClassName("box")
+        // console.log(boxes)
+        // boxes[2].style.backgroundColor = "red"
+
+        document.getElementById("red").style.backgroundColor = "blue"
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.container{
+    padding: 20px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: min-content;
+}
+.box{
+    padding: 0px;
+    border: 2px solid black;
+}
+.img{
+    width: 150px;
+    height: 111px;
+}

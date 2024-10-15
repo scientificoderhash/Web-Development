@@ -1,0 +1,13 @@
+h1+p{
+    font-weight: 1500;
+    font-size: 150%;
+    color:blueviolet;
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2{
+    
+}

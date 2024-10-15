@@ -1,0 +1,78 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 3% 35%;
+  background-color: rgba(0, 0, 0, 0.521);
+  border: 3px solid azure;
+  border-radius: 3px;
+}
+
+.main {
+  background-color: rgba(235, 235, 235, 0.904);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline solid black;
+  background-color: aliceblue;
+  padding: 4px;
+}
+
+img {
+  padding: 5%;
+  width: 90%;
+}
+
+.span {
+  padding: 1%;
+}
+
+span {
+  color: rgb(110, 110, 110);
+  padding: 4%;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline solid rgb(110, 110, 110);
+}
+
+#main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer{
+    margin: 10px;
+    padding: 15px;
+    background-color: lightseagreen;
+    border: 1px solid blue;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.footer:hover{
+    color: blue;
+    background-color: lightskyblue;
+    font-weight: 700;
+    border: 2px solid blue;
+
+}
+
+.Chintu{
+    text-align: center;
+}

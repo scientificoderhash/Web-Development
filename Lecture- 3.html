@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture-3</title>
+    <link rel="stylesheet" href="CSS/style(Lecture - 3).css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1> <hr>
+        <p>Required Fields are followed by *</p>
+        <h2>Contact Information</h2>
+        <p>Name: *<input type="text" name="name" placeholder="Hare Krishna" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male" required>
+                    Female <input type="radio" name="gender" id="Female" required>
+                </p>
+            
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="100" rows="8" placeholder="Permanent Address"></textarea></p>
+        <p>Email: *<input type="email" name="email" id="email" placeholder="----@gmail.com" required></p>
+        <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>Card Type: *
+            <select name="Card-type" id="card-type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="Visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card Number *<input type="number" name="card-number" id="card-number" required>
+        </p>
+        <p>
+            Expiration Date: *<input type="date" name="exp-date" id="exp-date" required>
+        </p>
+        <p>CVV *<input type="password" name="CVV" id="CVV" required></p>
+        <input type="submit" value="Pay now">
+    </form>
+</div>
+    <br>
+    <a href="WEB Development.html">WEB DEVELOPMENT</a>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style (CSS Lecture- 5).css">
+    <style>
+        h2{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- There are 3 ways to include css in our htnl code
+    1-> Inline CSS
+            Used inside the tags with the help of "style" attribute. For example:- 
+        <tagname style="property:value,"> -->
+    <h1 style="color:darkblue">This is inline</h1>
+    <!-- 
+        2-> Internal CSS
+        A whole tag is used with selectors in it. It is used in <head></head> tag 
+    -->
+    <h2>This is Internal</h2>
+    <!--
+        3-> External CSS
+        Whole CSS is typed in a separate file and we import that file in our html with the help of <link></link> tag
+        Link tag is used in <head></head> tag
+    -->
+    <h3>This is External</h3>
+    <hr><br>
+    <em>Selectors in CSS</em><br>
+    <h5>
+        Type Selector <br> Class Selector <br> Id Selector <br> Attribute Selector <br>
+       <p> Generally the syntax is:- <ul>
+            <li> tagname { property: value}</li>
+        </ul></p>
+        <p> Here tag name can be any tag or class or id given to tags. <br>
+        In attribute selector, syntax is :- <ul><li> tag name [attribute=""] {propert: value}</li></ul> </p>
+    </h5>
+    <br><hr><hr><br>
+    <h4 style="background-color: yellow;">Pseudo Class Selector</h4>
+    <h4 class="Selector">Used to style states of elements <br> Some of the examples are Hover and Visited <br>
+    Syntax is:- <br> selector: pseudo-class {property: value;}</h4>
+    <br>
+
+
+
+    <h4 style="background-color: aqua;">Pseudo Element Selector</h4>
+    <p> jakdfvbaskfp <br> jhAKDWHIB</p>
+    This type of selector is used to style a particular element in the whole tag like styling any line in paragraph tag
+
+
+    <h4 style="background-color:darkorange"> Combinator Selector</h4>
+    <article>
+        <p>
+            This is Selector
+        </p>
+        <h1>isdbsoievbpuoib</h1>
+    </article>
+   <h5>Syntax of combinator selector is:- <br> Main tag> child tag {property: value;} </h5>
+
+
+   <h4 style="background-color:yellowgreen;">Universal Selector</h4>
+   <h5>used to select everything
+   Syntax is:- <br> *{ property: value;} </h5>
+</body>
+</html>
